@@ -43,6 +43,8 @@
   /*text-align: center;*/
   margin-left: 26px;
   /* margin-right: 21px; */
+  white-space: pre-line;
+
 }
 
 .windowTitleSexy {
