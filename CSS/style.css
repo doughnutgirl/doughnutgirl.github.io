@@ -130,6 +130,7 @@ ul li {
   padding: 0;
   margin: 0;
   height: 21.5px;
+  overflow: hidden;
 }
 
 /*
@@ -208,13 +209,18 @@ a:hover {
 
 /* ######## ICONS ######### **/
 .mailbox_icon {
-  max-width: 15%;
+  max-width: 50%;
+  width: 15%;
+  min-width: 155px;
   height: auto;
   float: right;
 }
 
+
 .privacy_icon {
-  max-width: 4%;
+  width: 4%;
+  max-width: 50%;
+  min-width: 55px;
   height: auto;
   float: left;
   margin-top: 10px;

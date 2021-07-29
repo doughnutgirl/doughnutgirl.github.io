@@ -131,6 +131,14 @@
   height: 400px
 }
 
+@media only screen and (max-width: 500px) {
+ .small{
+   width: 320px;
+   height: 400px
+ }
+}
+
+
 .sexyMessageServicePopupSize {
   width: 435px;
   height: 244px;
