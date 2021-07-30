@@ -189,7 +189,9 @@ a:hover {
   display: inline-block;
   min-width: 20px;
 }
-
+.pub_img_container{
+  clear:left;
+}
 .pub_img_left{
   float:left;
   width:auto;
@@ -202,6 +204,9 @@ a:hover {
   width:auto;
   height:240px;
   margin-bottom: 8px;
+}
+.pub_img_clear{
+  clear:left;
 }
 
 

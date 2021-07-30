@@ -145,6 +145,15 @@
   width: 435px;
   height: 244px;
   background-color: #e3e1e1;
+  zoom: 0.5;
+    -moz-transform: scale(0.8);
+}
+
+@media only screen and (max-width: 500px) {
+ .sexyMessageServicePopupSize{
+   width: 300px;
+   height: 270px
+ }
 }
 
 *, *::before, *::after {
