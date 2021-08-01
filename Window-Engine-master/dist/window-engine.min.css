@@ -92,6 +92,10 @@
   width:10px;
 }
 
+[id^="closeButton"] img {
+width:10px;
+}
+
 .windowGroup {
   justify-content: center;
   display: flex;
