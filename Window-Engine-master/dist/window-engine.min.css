@@ -38,7 +38,7 @@
 }
 .windowTitle {
   position: relative;
-  bottom: 2px;
+  bottom: 1px;
   font-weight: bold;
   /*text-align: center;*/
   margin-left: 26px;
@@ -88,7 +88,7 @@
   color: black;
   cursor: pointer;
   position: relative;
-  bottom: 9px;
+  bottom: 8px;
   font-size: 24px;
   float: left;
   width:10px;
