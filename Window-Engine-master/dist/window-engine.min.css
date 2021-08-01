@@ -19,7 +19,7 @@
   background-color: black;
   color: black;
   border-radius: 4px 4px 0 0;
-  height: min(40px,5em);
+  height: min(44px);
   justify-content: space-between;
   display: flex;
   touch-action: none;
@@ -43,7 +43,9 @@
   /*text-align: center;*/
   margin-left: 26px;
   /* margin-right: 21px; */
-  white-space: pre-line;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 
 }
 
