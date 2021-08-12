@@ -327,3 +327,14 @@ a:hover {
   margin-right: 31px;
   margin-bottom: 5px;
 }
+
+@media only screen and (min-width: 768px) {
+ .partner div{
+   min-width: 170px;
+max-width: 186px;
+ }
+ /*
+ .partner div:last-child {
+   min-width: 200px;
+ }*/
+}
