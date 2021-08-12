@@ -168,8 +168,9 @@ ul li a::after {
   height: 0;
 }
 
-.projectSelectedMailbox{
-
+.projectSelected .mailbox_icon{
+/*  background-color: red;
+  content: url("SVG/mailbox_geneigt.svg");*/
 }
 
 
