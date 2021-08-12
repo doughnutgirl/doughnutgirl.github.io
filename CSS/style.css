@@ -129,8 +129,11 @@ ul {
 ul li {
   padding: 0;
   margin: 0;
-  height: 21.5px;
+/*  height: 21.5px;*/
   overflow: hidden;
+}
+.partner ul li {
+  height: 21.5px;
 }
 
 /*
@@ -183,12 +186,30 @@ a:hover {
   text-align: center;
 }
 
+/*
 .vitae_year {
   margin-right: .5rem;
   width: 2%;
   display: inline-block;
   min-width: 20px;
 }
+*/
+
+.vitae_year {
+  max-width: 30px;
+  padding-left: 0px;
+}
+.vitae_project {
+  max-width: 85.3333%;
+  padding-left: 0px;
+}
+.vitae_list_item {
+  overflow:visible;
+}
+.vitae_list {
+  width:100%;
+}
+
 .pub_img_container{
   clear:left;
 }
