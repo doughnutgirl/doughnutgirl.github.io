@@ -62,21 +62,10 @@ position: -o-sticky;
   margin-right: auto;
 }
 #window12header{
-  border-radius: 9px 9px 0 0;
+
   padding-left:0;
   padding-right:0;
-  border-top-color: gray;
-border-top-style: solid;
-border-top-width: 1px;
-border-right-color: gray;
-border-right-style: solid;
-border-right-width: 1px;
 
-border-bottom-style: none;
-
-border-left-color: gray;
-border-left-style: solid;
-border-left-width: 1px
 }
 .windowDownload {
   position: relative;
@@ -111,6 +100,8 @@ border-left-width: 1px
   font-size: 24px;
   float: left;
   width:10px;
+  margin-right: 0.8rem;
+
 }
 
 [id^="closeButton"] img {
