@@ -256,34 +256,126 @@ a:hover {
 }
 
 /* Marquee runable banner at sexy message service pop-up */
+/*
 .marquee {
   width: 450px;
   line-height: 18px;
-/*  background-color: red;*/
+
   color: white;
   white-space: nowrap;
   overflow: hidden;
   box-sizing: border-box;
 }
+*/
 
-.marqTitle {
-  display: inline-block;
-  padding-left: 100%;
-  animation: marquee 15s linear infinite;
-  color:red;
-
-}
 .titleRed{
   color:red;
 }
 
+
+
+
+.marquee {
+  height: 35px;
+  width: 100%;
+
+  overflow: hidden;
+  position: relative;
+
+}
+
+/* would need to be adjusted depending on time */
+.marquee .marquee_one{
+  animation: marquee 10s linear infinite
+}
+
+.marquee .marquee_two{
+  animation: marquee 10s linear 1s infinite
+}
+
+.marquee .marquee_three{
+  animation: marquee 10s linear 2s infinite
+}
+
+.marquee .marquee_four{
+  animation: marquee 10s linear 3s infinite
+}
+.marquee .marquee_five{
+  animation: marquee 10s linear 4s infinite
+}
+.marquee .marquee_six{
+  animation: marquee 10s linear 5s infinite
+}
+.marquee .marquee_seven{
+  animation: marquee 10s linear 6s infinite
+}
+.marquee .marquee_eight{
+  animation: marquee 10s linear 7s infinite
+}
+.marquee .marquee_nine{
+  animation: marquee 10s linear 8s infinite
+}
+.marquee .marquee_ten{
+  animation: marquee 10s linear 9s infinite
+}
+
+/* even out the elements */
+.marquee div {
+  position: absolute;
+  width: 100%;
+  left: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* add delay at the end of animation so you dont start while another div is going */
 @keyframes marquee {
-  0% {
-    transform: translate(0, 0);
+  0% { left: 100%; }
+  50% { left: -100%; }
+  100% {left: -100%}
+}
+
+
+
+@media only screen and (max-width: 500px){
+  .marquee .marquee_one{
+    animation: marquee 10s linear infinite
   }
 
-  100% {
-    transform: translate(-100%, 0);
+  .marquee .marquee_two{
+    animation: marquee 10s linear 1.43s infinite
+  }
+
+  .marquee .marquee_three{
+    animation: marquee 10s linear 2.86s infinite
+  }
+
+  .marquee .marquee_four{
+    animation: marquee 10s linear 4.29s infinite
+  }
+  .marquee .marquee_five{
+    animation: marquee 10s linear 5.72s infinite
+  }
+  .marquee .marquee_six{
+    animation: marquee 10s linear 7.15s infinite
+  }
+  .marquee .marquee_seven{
+    animation: marquee 10s linear 8.58s infinite
+  }
+  .marquee .marquee_eight{
+    visibility: hidden;
+    animation: marquee 10s linear 8.75s infinite
+  }
+  .marquee .marquee_nine{
+    visibility: hidden;
+    animation: marquee 10s linear 16s infinite
+  }
+  .marquee .marquee_ten{
+    visibility: hidden;
+    animation: marquee 10s linear 18s infinite
   }
 }
 
@@ -329,10 +421,57 @@ a:hover {
   margin-bottom: 5px;
 }
 
+#sexyMessageFirst_img_container{
+  width: 35%;
+  float: left;
+}
+#sexyMessageFirst_cont_container{
+  width: 60%;
+  float: left;
+  padding-top: 5%;
+}
+#sexyMessageFirst_cont_container p{
+  margin-bottom: 0rem;
+}
+#sexyMessageSecond p {
+  cursor: default;
+margin-bottom: 0rem;
+margin-top: 1.5rem;
+margin-left: 1rem;
+}
+.ok{
+  margin-right: 6%;
+}
+
 @media only screen and (min-width: 768px) {
  .partner div{
    min-width: 170px;
 max-width: 186px;
+}
+
+ }
+
+@media only screen and (max-width: 500px){
+  #thumb_img {
+    visibility:hidden;
+  }
+  #sexyMessageFirst_img_container{
+    width: 0%;
+  }
+  #sexyMessageFirst_cont_container{
+    width: 100%;
+    float: left;
+    padding-top: 8%;
+  }
+
+}
+
+   #thumb_img {
+
+       width: 72%;
+       height: auto;
+       margin-left: 14%;
+       margin-right: 14%;
  }
  /*
  .partner div:last-child {
