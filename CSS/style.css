@@ -343,34 +343,35 @@ a:hover {
 @media only screen and (max-width: 500px){
   .marquee .marquee_one{
     animation: marquee 10s linear infinite ;
-    -webkit-animation: marquee 10s linear infinite;
+    /*-webkit-animation: marquee 10s linear infinite; */
   }
 
   .marquee .marquee_two{
-    animation: marquee 10s linear 1.43s infinite;
-    -webkit-animation: marquee 10s linear 1.43s infinite;
+    animation: marquee 10s linear 1.67s infinite;
+    /*-webkit-animation: marquee 10s linear 1.43s infinite;*/
   }
 
   .marquee .marquee_three{
-    animation: marquee 10s linear 2.86s infinite;
-    -webkit-animation: marquee 10s linear 2.86s infinite;
+    animation: marquee 10s linear 3.33s infinite;
+    /*-webkit-animation: marquee 10s linear 2.86s infinite;*/
   }
 
   .marquee .marquee_four{
-    animation: marquee 10s linear 4.29s infinite;
-    -webkit-animation: marquee 10s linear 4.29s infinite;
+    animation: marquee 10s linear 5s infinite;
+    /*-webkit-animation: marquee 10s linear 4.29s infinite;*/
   }
   .marquee .marquee_five{
-    animation: marquee 10s linear 5.72s infinite;
-    -webkit-animation: marquee 10s linear 5.72s infinite;
+    animation: marquee 10s linear 6.67s infinite;
+    /*-webkit-animation: marquee 10s linear 5.72s infinite;*/
   }
   .marquee .marquee_six{
-    animation: marquee 10s linear 7.15s infinite;
-    -webkit-animation: marquee 10s linear 7.15s infinite;
+    animation: marquee 10s linear 8.33s infinite;
+    /*-webkit-animation: marquee 10s linear 7.15s infinite; */
   }
   .marquee .marquee_seven{
+    visibility: hidden;
     animation: marquee 10s linear 8.58s infinite;
-    -webkit-animation: marquee 10s linear 8.58s infinite;
+    /*-webkit-animation: marquee 10s linear 8.58s infinite;*/
   }
   .marquee .marquee_eight{
     visibility: hidden;
