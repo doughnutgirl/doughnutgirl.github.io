@@ -133,9 +133,11 @@ ul li {
   overflow: hidden;
 }
 .partner ul li {
+  height: 18px;
+}
+.partner ul li:first-child {
   height: 20.5px;
 }
-
 /*
 ul li{
   padding: 0;
@@ -250,9 +252,16 @@ a:hover {
   min-width: 55px;
   height: auto;
   float: left;
-  margin-top: 10px;
+  margin-top: 9rem;
   /*position:absolute;*/
   bottom: 15px;
+}
+
+@media only screen and (max-width: 500px){
+  .privacy_icon {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
 }
 
 /* Marquee runable banner at sexy message service pop-up */
