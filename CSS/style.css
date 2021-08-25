@@ -347,21 +347,22 @@ a:hover {
   }
 
   .marquee .marquee_two{
-    animation: marquee 10s linear 2s infinite;
+    animation: marquee 10s linear 2.5s infinite;
     /*-webkit-animation: marquee 10s linear 1.43s infinite;*/
   }
 
   .marquee .marquee_three{
-    animation: marquee 10s linear 4s infinite;
+    animation: marquee 10s linear 5s infinite;
     /*-webkit-animation: marquee 10s linear 2.86s infinite;*/
   }
 
   .marquee .marquee_four{
-    animation: marquee 10s linear 6s infinite;
+    animation: marquee 10s linear 7.5s infinite;
     /*-webkit-animation: marquee 10s linear 4.29s infinite;*/
   }
   .marquee .marquee_five{
-    animation: marquee 10s linear 8s infinite;
+    visibility: hidden;
+    animation: marquee 10s linear 7.5s infinite;
     /*-webkit-animation: marquee 10s linear 5.72s infinite;*/
   }
   .marquee .marquee_six{
